@@ -2,3 +2,15 @@
 *.swp
 *.swo
 *.sw?
+
+#Ignore GCC build files
+*.o
+*.exe
+*.obj
+*.out
+*.elf
+*.map
+*.a
+*.so
+*.d
+
