@@ -6,8 +6,7 @@ def print_number_dominos(m: int, n: int) -> None:
         print(area//2)
         return
     else:
-        remainder = area-area//2
-        result = area//2 + remainder//2
+        result = (area-1)//2
         print(result)
 
 if __name__ == "__main__":
