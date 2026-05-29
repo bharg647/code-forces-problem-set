@@ -1,12 +1,11 @@
 if __name__ == "__main__":
     
     one_index = None
-    matrix = []
     for i in range(5):
         matrix_row = input().split()
         if "1" in matrix_row:
             one_index = (i, matrix_row.index("1"))
-        matrix.append(matrix_row)
+            break
     
     target_index = (2,2)
     
